@@ -5,17 +5,17 @@ Agent module also includes a DQN agent and a Decision Tree agent, but the Rules-
 
 Instructions:
 
-To prep data for model training, go to the data folder 'cd data' and run:
-'''
+To prep data for model training, go to the data folder `cd data` and run:
+```
 python3 prep_data.py
-'''
+```
 
 To train the model, go to the root of the project directory and run:
-'''
+```
 python3 -m scripts.train
-'''
+```
 
 To test the model, go to the root of the project directory and run:
-'''
+```
 python3 -m scripts.test
-'''
+```
